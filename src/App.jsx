@@ -1,12 +1,9 @@
-import Card from "./Card";
-import Button from "./Button/Button";
-import Student from "./Student";
-import UserGreeting from "./UserGreeting";
+import Mycomponent from "./Mycomponent";
 
 function App() {
   return(
     <>
-      <UserGreeting isLoggedIn={false} username="IT"></UserGreeting>
+      <Mycomponent></Mycomponent>
 
     </>
   );
