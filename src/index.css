@@ -1,59 +1,26 @@
-.card{
-  border: 1 px solid hsl(0, 0%, 80%);
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
-  padding: 20px;
-  margin: 10 px;
+.counter-container{
   text-align: center;
-  max-width: 250px ;
-  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.card .card-image{
-  max-width: 60%;
-  height: auto;
-  border-radius: 50%;
-  margin-bottom: 10px;
+.count-display{
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
-.card .card-title{
-  font-family: Arial, sans-serif;
-  margin: 0;
-  color: hsl(0, 0%, 20%)
-}
-
-.card .card-text{
-  font-family: Arial, sans-serif;
-  color: hsl(0, 0%, 60%)
-
-
-}
-
-.student{
-  font-family: Arial, sans-serif;
-  font-size: 2em;
-  padding: 10px;
-  border: 1px solid hsla(0, 0%, 50%, 0.8);
-}
-
-.student p{
-  margin: 0;
-}
-
-.welcome-message{
-  font-size: 2.5em;
-  background-color: green;
-  color: white;
-  padding: 10px;
+.counter-button{
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  margin: 0px 5px;
+  background-color: aqua;
   border-radius: 5px;
-  margin: 0;
+  border: none;
+  cursor: pointer;
 }
 
-.login-prompt{
-  font-size: 2.5em;
-  background-color: red;
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
-  margin: 0;
+.counter-button:hover{
+  background-color: rgb(13, 239, 239);
+
 }
