@@ -1,15 +1,12 @@
 import Card from "./Card";
 import Button from "./Button/Button";
 import Student from "./Student";
+import UserGreeting from "./UserGreeting";
+
 function App() {
   return(
     <>
-      <Card></Card>
-      <Card></Card>
-      <Button></Button>
-      <Student name="A" age={30} isStudent={false} />
-      <Student name="B" age={20} isStudent={true} />
-      <Student name="C" age={530} isStudent={false} />
+      <UserGreeting isLoggedIn={false} username="IT"></UserGreeting>
 
     </>
   );
