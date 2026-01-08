@@ -45,7 +45,7 @@ function Mycomponent(){
             </textarea>
             <p>Comment: {comment}</p>
 
-            <select value={payment} onChange={handlePaymentChange}>
+            <select value={payment} onChange={handlePaymentChange }>
                 <option value="">Select an option</option>
                 <option value="Visa">Visa</option>
                 <option value="Mastercard">Mastercard</option>
